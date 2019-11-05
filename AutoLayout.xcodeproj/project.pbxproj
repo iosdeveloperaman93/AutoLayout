@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18CDBE9623717BE2003305A0 /* UIView+Autolayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDBE9523717BE2003305A0 /* UIView+Autolayout.m */; };
+		18CDBE9E23718090003305A0 /* Autolayouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CDBE9A23718090003305A0 /* Autolayouts.swift */; };
+		18CDBE9F23718090003305A0 /* UIView+Autolayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDBE9C23718090003305A0 /* UIView+Autolayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18CDBE8023717B70003305A0 /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		18CDBE9423717BE2003305A0 /* UIView+Autolayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Autolayout.h"; sourceTree = "<group>"; };
-		18CDBE9523717BE2003305A0 /* UIView+Autolayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Autolayout.m"; sourceTree = "<group>"; };
+		18CDBE9A23718090003305A0 /* Autolayouts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Autolayouts.swift; sourceTree = "<group>"; };
+		18CDBE9C23718090003305A0 /* UIView+Autolayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Autolayout.m"; sourceTree = "<group>"; };
+		18CDBE9D23718090003305A0 /* UIView+Autolayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Autolayout.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +48,27 @@
 		18CDBE8223717B70003305A0 /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
-				18CDBE9423717BE2003305A0 /* UIView+Autolayout.h */,
-				18CDBE9523717BE2003305A0 /* UIView+Autolayout.m */,
+				18CDBE9B23718090003305A0 /* Obj c */,
+				18CDBE9923718090003305A0 /* Swift */,
 			);
 			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		18CDBE9923718090003305A0 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				18CDBE9A23718090003305A0 /* Autolayouts.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		18CDBE9B23718090003305A0 /* Obj c */ = {
+			isa = PBXGroup;
+			children = (
+				18CDBE9C23718090003305A0 /* UIView+Autolayout.m */,
+				18CDBE9D23718090003305A0 /* UIView+Autolayout.h */,
+			);
+			path = "Obj c";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18CDBE9623717BE2003305A0 /* UIView+Autolayout.m in Sources */,
+				18CDBE9E23718090003305A0 /* Autolayouts.swift in Sources */,
+				18CDBE9F23718090003305A0 /* UIView+Autolayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
